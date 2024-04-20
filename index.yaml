@@ -12,7 +12,7 @@ page:
 
 
 template:
-  theme: red
+  theme: sky
 
   sidebar:
     collapsed: false
