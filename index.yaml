@@ -1,0 +1,6 @@
+page:
+  headHtml: |
+    <snippet var="js.mathjax" />
+    <snippet var="js.highlightjs" />
+  bodyHtml: |
+    <snippet var="js.mermaid" />

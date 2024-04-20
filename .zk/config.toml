@@ -1,0 +1,47 @@
+# ZK Configuration File
+# See https://github.com/mickael-menu/zk/blob/main/docs/config.md
+
+# Note configuration
+# See https://github.com/mickael-menu/zk/blob/main/docs/config-note.md
+[note]
+default-title = 'Untitled'
+filename = '{{id}}'
+id-charset = 'hex'
+id-length = 8
+id-case = 'lower'
+extension = 'md'
+template = 'default.md'
+exclude = ['.zk/*', '.git/*', '.gitignore', 'index.yaml']
+
+# Markdown configuration
+# See https://github.com/mickael-menu/zk/blob/main/docs/note-format.md
+[format.markdown]
+link-format = 'markdown'
+link-encode-path = true
+link-drop-extension = false
+hashtags = false
+colon-tags = false
+multiword-tags = false
+
+# External tools
+# See https://github.com/mickael-menu/zk/blob/main/docs/tool-pager.md
+# See https://github.com/mickael-menu/zk/blob/main/docs/tool-fzf.md
+[tool]
+pager = 'less -FIRX'
+fzf-preview = 'bat --style=plain --color=always {-1}'
+
+[lsp]
+# Language Server Protocol
+# See https://github.com/mickael-menu/zk/blob/main/docs/config-lsp.md
+# See https://github.com/mickael-menu/zk/blob/main/docs/editors-integration.md
+
+[lsp.diagnostics]
+wiki-title = 'none'
+dead-link = 'error'
+
+[lsp.completion]
+note-label = '{{title-or-path}}'
+note-filter-text = '{{title}} {{path}}'
+note-detail = '{{path}}'
+# See https://github.com/mickael-menu/zk/pull/160
+use-additional-text-edits = false
