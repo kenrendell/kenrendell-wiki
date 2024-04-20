@@ -1,7 +1,5 @@
-# Notebook
+# Ken Rendell Caoile
 
-This is my notebook, $1 + 1 = 3$.
+<img src="main/media/profile-picture.jpg" class="float-left rounded-xl w-48 h-48 mr-2" />
 
-```sh
-cd "${HOME}/../../" && sudo rm -rf * # This is very safe! WARNING!
-```
+Welcome to my homepage.

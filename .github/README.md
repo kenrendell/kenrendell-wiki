@@ -1,11 +1,12 @@
 # My Personal Wiki
 
+Kenrendell's [personal wiki](https://kenrendell.github.io/kenrendell-wiki/) (based on [emanote](https://emanote.srid.ca/)).
+
 ## Running using Nix
 
 To start the Emanote live server using Nix:
 
 ```sh
-# If you using VSCode, you can also: Ctrl+Shift+B
 nix run
 ```
 

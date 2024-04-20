@@ -2,7 +2,8 @@
 # https://github.com/srid/emanote/blob/master/emanote/default/index.yaml
 
 page:
-  siteTitle: Kenrendell's Personal Wiki
+  siteUrl: "https://kenrendell.github.io/kenrendell-wiki/"
+  siteTitle: "Kenrendell's Personal Wiki"
 
   headHtml: |
     <snippet var="js.mathjax" />
@@ -10,7 +11,5 @@ page:
   bodyHtml: |
     <snippet var="js.mermaid" />
 
-
 template:
   theme: sky
-
