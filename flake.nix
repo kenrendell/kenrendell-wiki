@@ -21,7 +21,7 @@
           # package = inputs.emanote.packages.${system}.default;
           sites."default" = {
             layers = [{ path = ./.; pathString = "."; }];
-            port = 9000;
+            # port = 8080;
             baseUrl = "/kenrendell-wiki/"; # Change to "/" (or remove it entirely) if using CNAME
             # prettyUrls = true;
           };
