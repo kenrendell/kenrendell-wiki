@@ -1,6 +1,21 @@
+# For documentation and available settings, see
+# https://github.com/srid/emanote/blob/master/emanote/default/index.yaml
+
 page:
+  siteTitle: Kenrendell's Personal Wiki
+
   headHtml: |
     <snippet var="js.mathjax" />
     <snippet var="js.highlightjs" />
   bodyHtml: |
     <snippet var="js.mermaid" />
+
+
+template:
+  theme: red
+
+  sidebar:
+    collapsed: false
+
+  # If you are hosting on GitLab Pages, you may want to remove this.
+  urlStrategy: pretty
