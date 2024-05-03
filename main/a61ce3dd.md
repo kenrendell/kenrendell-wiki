@@ -1,5 +1,5 @@
 ---
-date: 2023-08-28
+date: 2024-05-01
 tags:
   - circuit
 ---
@@ -14,7 +14,7 @@ In physical systems, damping is produced by processes that dissipate the [energy
 >
 > $\boxed{\zeta = \frac{\alpha}{\omega_0}}$
 >
-> where $\omega_0$ is known as the *resonant frequency* or strictly as the *undamped natural frequency*, expressed in radians per second $(\textrm{rad}/\textrm{s})$; and $\alpha$ is the *[neper](fd7cf1fa.md) frequency* or the *damping factor*, expressed in nepers per second $(\textrm{Np}/\textrm{s})$.
+> where $\omega_0$ is known as the *resonant frequency* or strictly as the *undamped natural frequency*, expressed in radians per second $(\textrm{rad}/\textrm{s})$; and $\alpha$ is the *[neper](fd7cf1fa.md) frequency* or the *damping factor* or the *damping attenuation*, expressed in nepers per second $(\textrm{Np}/\textrm{s})$.
 
 The damping ratio $\zeta$ is a system parameter that can vary from ***undamped*** $(\zeta = 0)$, ***underdamped*** $(0 < \zeta < 1)$ through ***critically damped*** $(\zeta = 1)$ to ***overdamped*** $(\zeta > 1)$. Systems that will oscillate are described as *underdamped* and those that will not are *overdamped*.
 
